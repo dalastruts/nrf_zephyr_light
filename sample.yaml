@@ -1,0 +1,9 @@
+sample:
+  name: VEML7700 Sensor sample
+tests:
+  sample.sensor.bme680:
+    harness: sensor
+    tags: samples sensor
+    integration_platforms:
+      - nrf52840dk_nrf52840
+    platform_allow: nrf52840dk_nrf52840
